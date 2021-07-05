@@ -18,9 +18,8 @@ import {
 
 const Technologies = () => (
   <Section id="tech">
-    <SectionDivider />
-    <br />
-    <SectionTitle></SectionTitle>
+    <SectionDivider divider />
+    <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I´ve worked with a range of Technologies in the web development world.
       From Node.Js and PHP as Back-End to Angular and React as Front-End
@@ -48,6 +47,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
     </List>
+    <SectionDivider colorAlt />
   </Section>
 );
 
